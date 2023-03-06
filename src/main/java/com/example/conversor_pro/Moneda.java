@@ -7,7 +7,7 @@ import javax.swing.*;
 import java.util.Map;
 
 public class Moneda {
-    private static final String API_URL = "https://openexchangerates.org/api/latest.json?app_id=b61fcbad62944505b2c5f183cb77c2c6";
+    private static final String API_URL = "https://openexchangerates.org/api/latest.json?app_id=xxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
 
     public static void convertir() {
         int opcionMoneda = Integer.parseInt(JOptionPane.showInputDialog("Ingrese la opcion deseada:\n1. Convertir de pesos a dolares\n2. Convertir de soles a dolares\n3. Convertir de dolares a pesos\n4. Convertir de dolares a soles"));
